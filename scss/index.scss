@@ -1,0 +1,37 @@
+/* styly pre index */
+body {
+	// padding-top: 50px;
+}
+.chord {
+	font-weight: bold;
+	vertical-align: super;
+	font-size: 1.1rem;
+}
+.band-wrapper {
+	margin-bottom: 10px;
+}
+.song-name {
+	cursor: pointer;
+}
+.song-content-wrapper {
+	padding: 10px;
+}
+.autoscroll {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	&-up, &-down, &-clear {
+		text-align: center;
+	}
+	&-button {
+		opacity: 0;
+	}
+}
+
+.transposition-button {
+	opacity: 0;
+}
+.list-group {
+	margin-bottom: 10px;
+}

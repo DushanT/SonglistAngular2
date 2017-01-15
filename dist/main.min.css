@@ -1,0 +1,2 @@
+@import url(../bower_components/semantic/dist/semantic.min.css);.chord{font-weight:bold;vertical-align:super;font-size:1.1rem}.band-wrapper{margin-bottom:10px}.song-name{cursor:pointer}.song-content-wrapper{padding:10px}.autoscroll{position:fixed;right:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.autoscroll-up,.autoscroll-down,.autoscroll-clear{text-align:center}.autoscroll-button{opacity:0}.transposition-button{opacity:0}.list-group{margin-bottom:10px}
+/*# sourceMappingURL=main.min.css.map */

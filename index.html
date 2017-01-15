@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Songlist</title>
+     <link rel="stylesheet" href="./dist/main.min.css">
+     <script src="./dist/main.min.js"></script>
+</head>
+<body>
+     
+     <div class="ui fluid three item secondary pointing menu main-menu"></div>
+
+     <div class="ui divider"></div>
+        
+    <div id="main-content" class="ui fluid styled accordion"></div>
+
+     <div class="autoscroll">
+          <div class="ui vertical buttons">
+               <div class="ui vertical buttons">
+                    <div class="autoscroll-button autoscroll-start ui icon button" data-scroll="start" data-tooltip="Scroll to beginning" data-position="left center"><i class="fast backward icon"></i></div>
+                    <div class="autoscroll-button autoscroll-up ui icon button" data-scroll="-1" data-tooltip="Auto scroll up" data-position="left center"><i class="backward icon"></i></div>
+                    <div class="autoscroll-button autoscroll-clear ui icon button" data-scroll="0" data-tooltip="Stop auto scroll" data-position="left center"><i class="stop icon"></i></div>
+                    <div class="autoscroll-button autoscroll-down ui icon button" data-scroll="1" data-tooltip="Auto scroll down" data-position="left center"><i class="forward icon"></i></div>
+                    <div class="autoscroll-button autoscroll-end ui icon button" data-scroll="end" data-tooltip="Scroll to end" data-position="left center"><i class="fast forward icon"></i></div>
+               </div>
+               <div class="ui vertical buttons">
+                    <div class="transposition-button ui icon button" data-transpose="1" data-tooltip="Transpose +1" data-position="left center"><i class="plus icon"></i></div>
+                    <div class="transposition-button ui icon button" data-transpose="-1" data-tooltip="Transpose -1" data-position="left center"><i class="minus icon"></i></div>
+               </div>
+          </div>
+     </div>
+</body>
+</html>

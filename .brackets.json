@@ -1,0 +1,15 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "scss/main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "output": "main.min.css",
+                "outputDir": "../dist/",
+                "includePaths": ["../bower_components/semantic/dist/"],
+                "sourceComments": true,
+                "outputStyle": "compressed"
+            }
+        }
+    }
+}
